@@ -53,7 +53,14 @@ export const fetchTasks = () => async (dispatch) => {
   }
 };
 
-
+export const addTask = (task) => async (dispatch) => {
+  try {
+    await setDoc(doc(db, "tasks", task.id), task);
+    dispatch(tasksSlice.actions.addTask(task));
+  } catch (error) {
+    console.error("Error adding task:", error);
+  }
+};
 
 export const updateTask = (task) => async (dispatch) => {
   try {
