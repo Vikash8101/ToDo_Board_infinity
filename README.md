@@ -23,11 +23,11 @@ This project is a dynamic task management application built with React and Redux
 
 1. Clone the repository:
    ```
-   git clone https://github.com/0ujjwal0/TODO-Board-Infinity
+   https://github.com/Vikash8101/ToDo_Board_infinity.git
    ```
 2. Navigate to the project directory:
    ```
-   cd TODO-Board-Infinity
+   cd ToDo-Board-Infinity
    ```
 3. Install the dependencies:
    ```
