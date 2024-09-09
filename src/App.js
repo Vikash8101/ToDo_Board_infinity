@@ -53,4 +53,4 @@ const RootApp = () => (
   </Provider>
 );
 
-
+export default RootApp;
